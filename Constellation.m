@@ -6,8 +6,8 @@ classdef Constellation < handle
         state;
 
         % константы
-        earthRadius = 6378135;      % Экваториальный радиус Земли [km]
-        earthGM = 3.986004415e+14;  % Гравитационный параметр Земли [m3/s2]
+        earthRadius = 6378135;           % Экваториальный радиус Земли [km]
+        earthGM = 3.986004415e+14;       % Гравитационный параметр Земли [m3/s2]
         earthJ2 = 1.082626e-3;           % First zonal harmonic coefficient in the expansion of the Earth's gravity field
     end
 
